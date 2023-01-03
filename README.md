@@ -18,6 +18,14 @@
 
 ---
 
+## Application tools
+
+:computer: [Node.js](https://nodejs.org/en/)
+
+:computer: [Node-RED](https://nodered.org/docs/getting-started/local)
+
+---
+
 ## Installation
 
 > Using the instructions in the following documents to install the program
