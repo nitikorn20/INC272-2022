@@ -22,4 +22,4 @@
 
 > Using the instructions in the following documents to install the program
 
-:page_facing_up: [Software Installation](https://code.visualstudio.com/)
+:page_facing_up: [Circuit Simulator Software installation](https://code.visualstudio.com/)
