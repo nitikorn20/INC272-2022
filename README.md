@@ -17,3 +17,9 @@
 :computer: [virtual Serial Port Driver](https://drive.google.com/file/d/1BsssBKRG_kqiGHPEpUDhb4jEUfrJd4vf/view?usp=share_link)
 
 ---
+
+## Installation
+
+> Using the instructions in the following documents to install the program
+
+:page_facing_up: [Software Installation](https://code.visualstudio.com/)
