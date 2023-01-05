@@ -20,9 +20,7 @@
 
 ## Application tools
 
-:computer: [Node.js](https://nodejs.org/en/)
-
-:computer: [Node-RED](https://nodered.org/docs/getting-started/local)
+:computer: [Node-Red](https://drive.google.com/file/d/1p_d-0ay0PSBeXJrkVHCsbGQLnF2-KLK6/view?usp=share_link)
 
 ---
 
