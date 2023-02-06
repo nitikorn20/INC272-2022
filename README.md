@@ -1,6 +1,6 @@
 # INC2-2022
 
-> News, Documents, Videos and other resources for INC281 will be provided in this repository.
+> News, Documents, Videos and other resources for INC272 will be provided in this repository.
 
 ## Software tools
 
