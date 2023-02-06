@@ -1,4 +1,4 @@
-# INC281-2022
+# INC2-2022
 
 > News, Documents, Videos and other resources for INC281 will be provided in this repository.
 
