@@ -930,22 +930,22 @@ __CONFIG1
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x7320
+.debug_info       0x000000       0x7327
  *(.debug_info)
- .debug_info      0x000000        0x313 ./output/objects/main.o
- .debug_info      0x000313        0x1c7 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
- .debug_info      0x0004da        0x446 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Mcu.o)
- .debug_info      0x000920        0x64b ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_SysTick.o)
- .debug_info      0x000f6b        0x61f ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_PswKey.o)
- .debug_info      0x00158a        0xa50 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Beep.o)
- .debug_info      0x001fda        0xf1a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Adc.o)
- .debug_info      0x002ef4        0x4db ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_LedBlink.o)
- .debug_info      0x0033cf        0x706 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Led.o)
- .debug_info      0x003ad5        0x350 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Psw.o)
- .debug_info      0x003e25       0x2b8a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Uart.o)
- .debug_info      0x0069af        0x322 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Queue.o)
- .debug_info      0x006cd1        0x1b5 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
- .debug_info      0x006e86        0x49a ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Timer.o)
+ .debug_info      0x000000        0x31a ./output/objects/main.o
+ .debug_info      0x00031a        0x1c7 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
+ .debug_info      0x0004e1        0x446 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Mcu.o)
+ .debug_info      0x000927        0x64b ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_SysTick.o)
+ .debug_info      0x000f72        0x61f ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_PswKey.o)
+ .debug_info      0x001591        0xa50 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Beep.o)
+ .debug_info      0x001fe1        0xf1a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Adc.o)
+ .debug_info      0x002efb        0x4db ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_LedBlink.o)
+ .debug_info      0x0033d6        0x706 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Led.o)
+ .debug_info      0x003adc        0x350 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Psw.o)
+ .debug_info      0x003e2c       0x2b8a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Uart.o)
+ .debug_info      0x0069b6        0x322 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Queue.o)
+ .debug_info      0x006cd8        0x1b5 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
+ .debug_info      0x006e8d        0x49a ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Timer.o)
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0xeea

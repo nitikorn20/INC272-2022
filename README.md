@@ -28,9 +28,9 @@
 
 > Using the instructions in the following documents to install the program
 
-:page_facing_up: [Circuit Simulator Software installation](https://github.com/nitikorn20/INC281-2022/blob/main/Doc/Circuit%20Simulator%20Software%20installation.pdf)
+:page_facing_up: [Circuit Simulator Software installation](https://github.com/nitikorn20/INC272-2022/blob/main/Doc/Circuit%20Simulator%20Software%20installation.pdf)
 
-:page_facing_up: [Application Software Installation](https://github.com/nitikorn20/INC281-2022/blob/main/Doc/Application%20Software%20Installation.pdf)
+:page_facing_up: [Application Software Installation](https://github.com/nitikorn20/INC272-2022/blob/main/Doc/Application%20Software%20Installation.pdf)
 
 ---
 
