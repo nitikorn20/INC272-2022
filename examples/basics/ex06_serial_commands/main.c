@@ -2,23 +2,6 @@
 #include <bsp.h>
 #include <rtl.h>
 
-/**
- * MCU Note:
- * 	UART1 is used as communication port
- * 	UART2 is used as debugging port
-*/
-
-/**
- * Proteus Note:
- *  Exclude the UART1
- *  Include the UART2
-*/
-
-/**
- * VSPD Note:
- *  COM4 is connected to Proteus
- *  COM5 is connected to Rust
-*/
 
 void uart1_line_received(void* evt) {
 

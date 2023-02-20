@@ -208,9 +208,9 @@ section                    address   length (PC units)   length (bytes) (dec)
 .const                      0x2bb6                0xa6            0xf9  (249)
 .text                       0x2c5c              0x2154          0x31fe  (12798)
 .dinit                      0x4db0                0xf4           0x16e  (366)
-.text                       0x4ea4               0x170           0x228  (552)
+.text                       0x4ea4               0x17a           0x237  (567)
 
-                 Total "program" memory used (bytes):         0x661e  (26142) 57%
+                 Total "program" memory used (bytes):         0x662d  (26157) 57%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x2000]
@@ -465,10 +465,10 @@ External Symbols in Program Memory (by address):
                   0x004f80                  _Mcu_Init
                   0x004f8a                  _read_analog_3
                   0x004fa2                  _main
-                  0x004fc2                  _BSP_TickIsrExecutor
-                  0x004fce                  _BSP_Executor
-                  0x004ff0                  _RTL_TickIsrExecutor
-                  0x004ffc                  _RTL_Executor
+                  0x004fcc                  _BSP_TickIsrExecutor
+                  0x004fd8                  _BSP_Executor
+                  0x004ffa                  _RTL_TickIsrExecutor
+                  0x005006                  _RTL_Executor
 
 External Symbols in Program Memory (by name):
 
@@ -481,8 +481,8 @@ External Symbols in Program Memory (by name):
                   0x004882                  _Adc_SetChangedInterval
                   0x00486a                  _Adc_SetChangedThreshold
                   0x004118                  _BEEP_TickedExecutor
-                  0x004fce                  _BSP_Executor
-                  0x004fc2                  _BSP_TickIsrExecutor
+                  0x004fd8                  _BSP_Executor
+                  0x004fcc                  _BSP_TickIsrExecutor
                   0x0040a6                  _Beep
                   0x0040ec                  _Beep_Generate
                   0x003ee0                  _Beep_Init
@@ -523,8 +523,8 @@ External Symbols in Program Memory (by name):
                   0x004b66                  _Queue_Put
                   0x004c34                  _Queue_Reset
                   0x004c22                  _Queue_Space
-                  0x004ffc                  _RTL_Executor
-                  0x004ff0                  _RTL_TickIsrExecutor
+                  0x005006                  _RTL_Executor
+                  0x004ffa                  _RTL_TickIsrExecutor
                   0x004d5c                  _Sys_GetClock
                   0x004d06                  _Sys_GetTicks
                   0x004d34                  _Sys_GetTimeMicro
@@ -935,22 +935,22 @@ __CONFIG1
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x7319
+.debug_info       0x000000       0x7320
  *(.debug_info)
- .debug_info      0x000000        0x30c ./output/objects/main.o
- .debug_info      0x00030c        0x1c7 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
- .debug_info      0x0004d3        0x446 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Mcu.o)
- .debug_info      0x000919        0x64b ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_SysTick.o)
- .debug_info      0x000f64        0x61f ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_PswKey.o)
- .debug_info      0x001583        0xa50 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Beep.o)
- .debug_info      0x001fd3        0xf1a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Adc.o)
- .debug_info      0x002eed        0x4db ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_LedBlink.o)
- .debug_info      0x0033c8        0x706 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Led.o)
- .debug_info      0x003ace        0x350 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Psw.o)
- .debug_info      0x003e1e       0x2b8a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Uart.o)
- .debug_info      0x0069a8        0x322 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Queue.o)
- .debug_info      0x006cca        0x1b5 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
- .debug_info      0x006e7f        0x49a ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Timer.o)
+ .debug_info      0x000000        0x313 ./output/objects/main.o
+ .debug_info      0x000313        0x1c7 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
+ .debug_info      0x0004da        0x446 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Mcu.o)
+ .debug_info      0x000920        0x64b ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_SysTick.o)
+ .debug_info      0x000f6b        0x61f ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_PswKey.o)
+ .debug_info      0x00158a        0xa50 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Beep.o)
+ .debug_info      0x001fda        0xf1a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Adc.o)
+ .debug_info      0x002ef4        0x4db ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_LedBlink.o)
+ .debug_info      0x0033cf        0x706 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Led.o)
+ .debug_info      0x003ad5        0x350 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Psw.o)
+ .debug_info      0x003e25       0x2b8a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Uart.o)
+ .debug_info      0x0069af        0x322 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Queue.o)
+ .debug_info      0x006cd1        0x1b5 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
+ .debug_info      0x006e86        0x49a ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Timer.o)
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0xefd
@@ -970,22 +970,22 @@ __CONFIG1
  .debug_abbrev    0x000db2         0x50 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
  .debug_abbrev    0x000e02         0xfb ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Timer.o)
 
-.debug_line       0x000000       0x11b0
+.debug_line       0x000000       0x11b1
  *(.debug_line)
- .debug_line      0x000000        0x11f ./output/objects/main.o
- .debug_line      0x00011f         0xa1 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
- .debug_line      0x0001c0        0x103 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Mcu.o)
- .debug_line      0x0002c3        0x144 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_SysTick.o)
- .debug_line      0x000407        0x150 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_PswKey.o)
- .debug_line      0x000557        0x17e ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Beep.o)
- .debug_line      0x0006d5        0x18d ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Adc.o)
- .debug_line      0x000862        0x11b ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_LedBlink.o)
- .debug_line      0x00097d        0x12a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Led.o)
- .debug_line      0x000aa7         0xed ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Psw.o)
- .debug_line      0x000b94        0x38d ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Uart.o)
- .debug_line      0x000f21         0xd8 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Queue.o)
- .debug_line      0x000ff9         0x98 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
- .debug_line      0x001091        0x11f ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Timer.o)
+ .debug_line      0x000000        0x120 ./output/objects/main.o
+ .debug_line      0x000120         0xa1 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
+ .debug_line      0x0001c1        0x103 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Mcu.o)
+ .debug_line      0x0002c4        0x144 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_SysTick.o)
+ .debug_line      0x000408        0x150 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_PswKey.o)
+ .debug_line      0x000558        0x17e ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Beep.o)
+ .debug_line      0x0006d6        0x18d ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Adc.o)
+ .debug_line      0x000863        0x11b ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_LedBlink.o)
+ .debug_line      0x00097e        0x12a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Led.o)
+ .debug_line      0x000aa8         0xed ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Psw.o)
+ .debug_line      0x000b95        0x38d ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Uart.o)
+ .debug_line      0x000f22         0xd8 ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Queue.o)
+ .debug_line      0x000ffa         0x98 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
+ .debug_line      0x001092        0x11f ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Timer.o)
 
 .debug_frame      0x000000        0xef2
  *(.debug_frame)
@@ -2323,7 +2323,7 @@ __c30_signature
 .dinit            0x004db0         0xf4
  .dinit           0x004db0         0xf4 data_init
 
-.text             0x004ea4        0x170
+.text             0x004ea4        0x17a
  .text            0x004ea4         0x7a ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Psw.o)
                   0x004ea4                  _Psw_Get
                   0x004f0e                  _Psw_Read
@@ -2333,12 +2333,12 @@ __c30_signature
                   0x004f5c                  _Mcu_UnlockRemap
                   0x004f6e                  _Mcu_LockRemap
                   0x004f80                  _Mcu_Init
- .text            0x004f8a         0x38 ./output/objects/main.o
+ .text            0x004f8a         0x42 ./output/objects/main.o
                   0x004f8a                  _read_analog_3
                   0x004fa2                  _main
- .text            0x004fc2         0x2e ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
-                  0x004fc2                  _BSP_TickIsrExecutor
-                  0x004fce                  _BSP_Executor
- .text            0x004ff0         0x24 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
-                  0x004ff0                  _RTL_TickIsrExecutor
-                  0x004ffc                  _RTL_Executor
+ .text            0x004fcc         0x2e ../../../library/BSP/dist/libs/ecc-pic24-bsp.a(BSP_Main.o)
+                  0x004fcc                  _BSP_TickIsrExecutor
+                  0x004fd8                  _BSP_Executor
+ .text            0x004ffa         0x24 ../../../library/RTL/dist/libs/ecc-pic24-rtl.a(RTL_Main.o)
+                  0x004ffa                  _RTL_TickIsrExecutor
+                  0x005006                  _RTL_Executor
