@@ -24,6 +24,12 @@
 
 ---
 
+## How to Run Example Node-Red
+
+:page_facing_up: [How to Run Node-Red Project](https://github.com/nitikorn20/INC272-2022/blob/main/Doc/How%20to%20Run%20Node-Red%20Project.pdf)
+
+---
+
 ## Installation
 
 > Using the instructions in the following documents to install the program
